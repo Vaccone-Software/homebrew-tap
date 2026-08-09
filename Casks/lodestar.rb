@@ -7,7 +7,7 @@ cask "lodestar" do
   desc "Keyboard navigation for macOS. Destination over process."
   homepage "https://github.com/Vaccone-Software/lodestar"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "lodestar.app"
   binary "#{appdir}/lodestar.app/Contents/MacOS/lodestar", target: "lodestar"
