@@ -8,6 +8,7 @@ cask "lodestar" do
   homepage "https://github.com/Vaccone-Software/lodestar"
 
   depends_on macos: :ventura
+  auto_updates true
 
   app "lodestar.app"
   binary "#{appdir}/lodestar.app/Contents/MacOS/lodestar", target: "lodestar"
