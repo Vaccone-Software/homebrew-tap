@@ -1,14 +1,13 @@
 cask "lodestar" do
-  version "0.37.0"
-  sha256 "de14973a3c7f2e77c625e6f32b07c1f3926f60b5a7eb4f9aba7bcd2efbf1b565"
+  version "0.36.3"
+  sha256 "2428dc779a6c6486ebd544ceb462519a38f1c0c9ac194fcde7c3d6c649b93211"
 
   url "https://github.com/Vaccone-Software/lodestar/releases/download/v#{version}/lodestar-#{version}.zip"
   name "Lodestar"
   desc "Keyboard navigation for macOS. Destination over process."
   homepage "https://github.com/Vaccone-Software/lodestar"
 
-  depends_on macos: :sonoma
-  depends_on arch: :arm64
+  depends_on macos: :ventura
   auto_updates true
 
   app "lodestar.app"
