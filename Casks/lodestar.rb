@@ -1,6 +1,6 @@
 cask "lodestar" do
-  version "0.54.8"
-  sha256 "40caa52cede9c24569d3a9065b79376a49fbce14aec9a928387eab6f70b9e634"
+  version "0.54.12"
+  sha256 "9070466698a6ce67edbbe201f2f97b4f0a717197d5a9676458f56cf1f22fed0b"
 
   url "https://github.com/Vaccone-Software/lodestar/releases/download/v#{version}/lodestar-#{version}.zip"
   name "Lodestar"
